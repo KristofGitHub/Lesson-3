@@ -26,18 +26,26 @@
 // string txt = "Serjio";
 // Method2_2(txt, 4);
 
-// Функция 3 типа
-int Method3(string message, int num)
+// // Функция 3 типа
+// int Method3(string message, int num)
+// {
+//     int count = 0;
+//     while (num != count)
+//     {
+//         Console.WriteLine(message);
+//         count++;
+//     }
+//     num = 10*num + num/2;
+//     return num;
+// }
+// string msg = "Молодец";
+// int a = Method3(msg, 4);
+// Console.WriteLine(a);
+
+// Функция 4 типа
+int Method4()
 {
-    int count = 0;
-    while (num != count)
-    {
-        Console.WriteLine(message);
-        count++;
-    }
-    num = 10*num + num/2;
-    return num;
+   return DateTime.Now.Year;
 }
-string msg = "Молодец";
-int a = Method3(msg, 4);
-Console.WriteLine(a);
+int year = Method4();
+Console.WriteLine($"Текущий год, по утверждению компьютера, {year}");
