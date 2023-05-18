@@ -42,10 +42,19 @@
 // int a = Method3(msg, 4);
 // Console.WriteLine(a);
 
-// Функция 4 типа
-int Method4()
+// // Функция 4 типа
+// int Method4()
+// {
+//    return DateTime.Now.Year;
+// }
+// int years = Method4();
+// Console.WriteLine($"Текущий год, по утверждению компьютера, {years}");
+
+// Функция 4 типа версия 2.0
+int Method4_2(int count, string txt)
 {
+   for (int i = 0; i < count; i++) {Console.WriteLine(txt);};
    return DateTime.Now.Year;
 }
-int year = Method4();
-Console.WriteLine($"Текущий год, по утверждению компьютера, {year}");
+int years = Method4_2(3,"Это код ");
+Console.WriteLine($"Текущий год, по утверждению компьютера, {years}");
