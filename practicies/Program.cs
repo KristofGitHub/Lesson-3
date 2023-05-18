@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Функция 1 типа
+void Method1()
+{
+    Console.WriteLine("Hello, Serjio!");
+}
+Method1();
