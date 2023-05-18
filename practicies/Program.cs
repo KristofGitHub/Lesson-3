@@ -50,11 +50,34 @@
 // int years = Method4();
 // Console.WriteLine($"Текущий год, по утверждению компьютера, {years}");
 
-// Функция 4 типа версия 2.0
-int Method4_2(int count, string txt)
-{
-   for (int i = 0; i < count; i++) {Console.WriteLine(txt);};
-   return DateTime.Now.Year;
-}
-int years = Method4_2(3,"Это код ");
-Console.WriteLine($"Текущий год, по утверждению компьютера, {years}");
+// // Функция 4 типа версия 2.0
+// int Method4_2(int count, string txt)
+// {
+//    for (int i = 0; i < count; i++) {Console.WriteLine(txt);};
+//    return DateTime.Now.Year;
+// }
+// int years = Method4_2(3,"Это код ");
+// Console.WriteLine($"Текущий год, по утверждению компьютера, {years}");
+
+// // Вывод таблицы умножения на экран, v1.0
+// Console.WriteLine(" ");
+// Console.WriteLine("ТАБЛИЦА УМНОЖЕНИЯ");
+// Console.WriteLine(" ");
+// int i = 0;
+// int j = 0;
+// if (j == 0) 
+// {
+//     Console.WriteLine("     0   1   2   3   4   5   6   7   8   9");
+//     Console.WriteLine("___________________________________________");
+// }
+// for(j = 0; j <= 9; j++)
+// {
+//     for (i = 0; i <= 9; i++)
+//     {
+//         if (i == 0){Console.Write($"{j}  |  ");}
+//         int result = i * j;
+//         Console.Write($"{result}   ");
+//         if (i == 9) {Console.WriteLine(" ");}
+//     }
+//     i = 0;
+// };
